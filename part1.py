@@ -227,6 +227,9 @@ you can run a few times to see different samples.
 4b (commentary).
 Based on the data, write down at least 2 strengths
 and 3 weaknesses of this dataset.
+This is subjective - you may interpret this however you like!
+If you were to use this dataset for a project, what would *you* consider to be
+some advantages and drawbacks?
 
 === ANSWER Q4b BELOW ===
 Strengths:
@@ -276,15 +279,16 @@ def q5b(dfs):
 """
 5c.
 One other thing:
-Also fill this in with how many non-null values are expected.
+Also fill this in with how many non-null values are expected (for the 2021 data).
+This should be a list for each column as before.
 We will use this in the unit tests below.
 """
 
 def q5c():
     raise NotImplementedError
     # TODO: fill this in with the expected number
-    num_non_null = 0
-    return num_non_null
+    # num_non_null = [0, 0, ...]
+    # return num_non_null
 
 """
 ===== Interlude again: Unit tests =====
@@ -337,11 +341,10 @@ def test_q4():
 @pytest.mark.skip
 def test_q5():
     dfs = load_input()
-    answers = q5a(dfs) + q5b(dfs)
-    assert len(answers) > 0
     num_non_null = q5c()
-    for x in answers:
-        assert x == num_non_null
+    assert len(num_non_null) > 0
+    assert q5a(dfs) == num_non_null
+    assert q5b(dfs) == num_non_null
 
 """
 6a. Are there any tests which fail?

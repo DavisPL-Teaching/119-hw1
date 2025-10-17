@@ -38,6 +38,10 @@ In order to receive credit for your work, please follow the following guidelines
 `pytest part1.py`, `pytest part2.py`, and `pytest part3.py`.
 We cannot give credit to code that doesn't run!
 
+- If you are uploading a zip file, you should include all data and auxiliary files with your code. If your code doesn't have auxiliary files, it won't run on someone else's machine!
+
+- You will likely want to excluded the hidden folders, in particular `.git`, from your zip file as it creates a lot of extra files for your upload.
+
 - Make sure that your `output/part1-answers.txt`, `output/part2-answers.txt`, and `output/part3-answers.txt` files are generated and up-to-date. These files should contain the answers to the questions in the assignment.
 Additionally, make sure your code is generating all plots in the `output/` folder.
 Include all of these in your final code that you commit/upload.

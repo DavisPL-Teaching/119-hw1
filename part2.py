@@ -140,6 +140,8 @@ in the input dataset.
 It should use the NUM_RUNS variable as with throughput.
 """
 
+LIST_ONE_ITEM = [10]
+
 class LatencyHelper:
     def __init__(self):
         # Initialize the object.
@@ -230,6 +232,9 @@ as you go through this file.
 
 Finally, use the helpers above to calculate the throughput and latency
 of the pipeline in part 1.
+
+Remember that for latency you should use a version of the pipeline with only one input row!
+You may need to write a new version of the pipeline for this to work.
 """
 
 # You will need these:
