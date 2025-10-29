@@ -311,6 +311,7 @@ def q6():
     # As your answer to this part,
     # call load_input() and then population_pipeline()
     # Return a list of min, median, max, mean, and standard deviation
+    # ** Please return these as Python floats, not Numpy; this is for comparison with the following questions **
     raise NotImplementedError
 
 """
@@ -499,6 +500,7 @@ def q11():
     # As your answer to this part, call load_input() and then
     # for_loop_pipeline() to return the 5 numbers.
     # (these should match the numbers you got in Q6.)
+    # ** Please return these as Python floats, not Numpy; this is for comparison with the previous question **
     raise NotImplementedError
 
 """
