@@ -311,7 +311,6 @@ def q6():
     # As your answer to this part,
     # call load_input() and then population_pipeline()
     # Return a list of min, median, max, mean, and standard deviation
-    # ** Please return these as Python floats, not Numpy; this is for comparison with the following questions **
     raise NotImplementedError
 
 """
@@ -442,13 +441,13 @@ def fromvar_latency():
 
 def q9a():
     # Add all 6 pipelines for a throughput comparison
-    # Generate plot in ouptut/q9a.png
+    # Generate plot in output/part2-q9a.png
     # Return list of 6 throughputs
     raise NotImplementedError
 
 def q9b():
     # Add 2 pipelines for a latency comparison
-    # Generate plot in ouptut/q9b.png
+    # Generate plot in output/part2-q9b.png
     # Return list of 2 latencies
     raise NotImplementedError
 
@@ -500,7 +499,7 @@ def q11():
     # As your answer to this part, call load_input() and then
     # for_loop_pipeline() to return the 5 numbers.
     # (these should match the numbers you got in Q6.)
-    # ** Please return these as Python floats, not Numpy; this is for comparison with the previous question **
+    # ** Please return these as Python floats, not Numpy **
     raise NotImplementedError
 
 """
@@ -543,13 +542,13 @@ b. Generate a plot in output/part2-q13b.png of the latencies
 
 def q13a():
     # Add all 6 pipelines for a throughput comparison
-    # Generate plot in ouptut/q13a.png
+    # Generate plot in output/part2-q13a.png
     # Return list of 6 throughputs
     raise NotImplementedError
 
 def q13b():
     # Add 2 pipelines for a latency comparison
-    # Generate plot in ouptut/q13b.png
+    # Generate plot in output/part2-q13b.png
     # Return list of 2 latencies
     raise NotImplementedError
 
