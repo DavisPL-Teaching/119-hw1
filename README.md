@@ -1,6 +1,6 @@
 # Homework 1: Data Processing and Performance
 
-**Due date: Friday, October 17, 2025** (11:59pm)
+**Due: Friday, October 16, 2025** (11:59pm)
 
 This homework has three parts.
 
@@ -56,5 +56,5 @@ Here are some things to consider: are your variable names chosen appropriately? 
 
 ## Credits
 
-Many thanks to the data science course at LUMS (CS 334 taught by Dr. Mobin Javed)
+Thanks to Hassnain and the data science course at LUMS (CS 334 taught by Dr. Mobin Javed)
 for the data and some of the exercises that were used in Part 1 of this homework assignment.
