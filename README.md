@@ -25,10 +25,16 @@ If you get stuck, please ask a question on Piazza!
 ## Submitting Your Code
 
 We will use Gradescope to submit the code for this assignment.
-Instructions will be posted on Piazza.
 You can submit code on Gradescope in one of two ways;
 via a private GitHub repository which contains your work;
 or, via uploading a `.zip` file.
+
+**Please note: to submit via .zip on Gradescope:** Please upload a single `.zip` file, but remove
+any junk/compiled files before uploading. This includes the folders `__pycache__`, `.pytest_cache`,
+`.git`, and other hidden folders. Keep all files/folders that were part of the original assignment.
+It is usually easiest to copy the entire folder to a new location, then delete any of these files, then compress the new (cleaned up) folder to a `.zip`.
+
+Do not attempt to upload and submit individual files in lieu of a `.zip`.
 
 ## Grading Notes
 
